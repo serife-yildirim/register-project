@@ -7,7 +7,7 @@ describe("Register Page", () => {
       cy.visit("http://localhost:5173/");
       //Act
       cy.get('[data-cy="ad-input"]').type("se");
-      
+
       //assert
       cy.contains(errorMessages.ad);
     });

@@ -10,6 +10,7 @@ const initialValues = {
     password: '',
     
   };
+  
   export const errorMessages = {
     ad: "Adınızı en az 3 karakter giriniz",
     soyad: "Soyadınızı en az 3 karakter giriniz",
